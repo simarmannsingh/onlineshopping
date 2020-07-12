@@ -1,11 +1,18 @@
 .App {
   text-align: left;
+  display: flex;
+  flex-direction: column;
+  background-image: url(./img/background3.jpg);
+  background-attachment: fixed;
+  z-index: 1;
 }
 
-body {
-  background-color: #7d8181;
+.special-font {
+  color: aliceblue;
+  margin-top: 25px;
+  margin-left: 25px;
+  text-align: center;
 }
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -25,6 +32,9 @@ body {
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  position: sticky;
+  top: 0;
+  z-index: 150;
 }
 
 .App-link {
@@ -43,7 +53,7 @@ body {
 
 table {
   margin-bottom: 80px;
-  margin-top: 40px;
+  margin-top: 10px;
 }
 
 table td {
@@ -76,6 +86,7 @@ table td {
 
 .container {
   padding: 2px 16px;
+  text-align: center;
 }
 
 @keyframes App-logo-spin {

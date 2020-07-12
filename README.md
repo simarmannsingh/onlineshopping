@@ -1,68 +1,49 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Online Shopping App
 
-## Available Scripts
+![App Preview](https://github.com/simarmannsingh/onlineshopping/blob/master/preview.png "Preview generated as on 19th Jul 2020")
 
-In the project directory, you can run:
+## About
 
-### `npm start`
+This is a react based sample project which is created for learning purposes.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## How do I test it?
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+To test the app, you can clone the app in your computer by executing the following command.
 
-### `npm test`
+    git clone git@github.com:simarmannsingh/onlineshopping.git
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+or
 
-### `npm run build`
+    git clone https://github.com/simarmannsingh/onlineshopping.git
 
-Builds the app for production to the `build` folder.<br />
+After cloning the app, go inside the directory by executing
+
+    cd onlineshopping/
+
+Then, to simply test the app, start the app using the command
+
+    npm start
+
+It should run a development server
+You can open [http://localhost:3000](http://localhost:3000) to view the running instance of the application in the browser.
+
+You can also check the production build of the app. To test the production build of the app, run the following command in the terminal.
+
+    npm run build
+
 It correctly bundles React in production mode and optimizes the build for the best performance.
+The build is minified and the filenames include the hashes.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## FAQs
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+_1. Why the App has same image on all items?_
+Ans : Well, the app doesn't have any image at all, the image that is shown is actually fetched over the internet from the service https://picsum.photos as the cards where the image is shown have size restrictions and hence it is not feasible to find or create custom illustrations with very specific size to add in all the cards of the sample app. Refreshing the page will fetch a new image every time randomly. The only specification is the size. In future if I have enough free time, I would surely consider creating illustrations and adding them locally instead of using this service.
 
-### `npm run eject`
+_2. Why clicking on the Pay Now button doesn't lead to any page??_
+Ans: The functionality of Pay Now button as well as development of other pages is under process.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Copyright and License
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Copyright 2020 Simar Mann Singh Chawala. Code released under the [MIT](https://github.com/simarmannsingh/onlineshopping/blob/master/LICENSE) license.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+The illustrations used in the app are copyrighted content and hence cannot be used for personal or commercial purposes without permission. Only the code of the application is published under MIT licence.

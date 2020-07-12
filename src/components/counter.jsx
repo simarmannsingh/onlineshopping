@@ -20,9 +20,10 @@ class Counter extends Component {
         <div className="card">
           <div className="container">
             <h4>
-              <b>Item for sale</b>
+              <b>{this.props.item}</b>
             </h4>
-            <p>price : 20 Euros</p>
+            <img src={this.props.imglink} alt="" />
+            <p>Price : {this.props.price} Euros</p>
           </div>
           <button
             onClick={this.handleAdd}
