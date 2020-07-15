@@ -1,20 +1,19 @@
 import React from "react";
 import "./App.css";
 import Counters from "./components/counters";
+import brandlogo from "./img/brandlogo.png";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <a
-          className="App-link"
+        <img
+          src={brandlogo}
+          className="App-link brandlogo"
           // eslint-disable-next-line no-script-url
-          href="JavaScript:void(0);"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Online Shopping
-        </a>
+          href="#"
+          alt="Online Shopping Brand Logo"
+        />
         <button className="buy-btn btn-primary"> Pay Now </button>
       </header>
       <p className="special-font">

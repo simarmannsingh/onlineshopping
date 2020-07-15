@@ -7,6 +7,14 @@
   z-index: 1;
 }
 
+.brandlogo {
+  width: fit-content;
+  height: fit-content;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  cursor: pointer;
+}
+
 .special-font {
   color: aliceblue;
   margin-top: 25px;
