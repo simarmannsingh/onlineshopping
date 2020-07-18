@@ -1,20 +1,10 @@
 language: node_js
 node_js:
-  - "stable"
+  - "node"
 
-cache: npm
-
-install:
-  - npm ci
-
-script:
-  - npm test
-  - npm run build
-
-deploy:
-  provider: pages
-  skip-cleanup: true
-  github-token: $GITHUB_TOKEN
-  local_dir: build
-  on:
-    branch: master
+after_success:
+  - git config --global user.name "simarmannsingh"
+  - git config --global user.email "simarmannsingh@gmail.com"
+  - git remote rm origin
+  - git remote add origin https://simarmannsingh:${GITHUB_TOKEN}@github.com/simarmannsingh/onlineshopping.git
+  - npm run deploy
