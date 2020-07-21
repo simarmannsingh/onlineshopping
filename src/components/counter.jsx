@@ -9,14 +9,6 @@ class Counter extends Component {
   render() {
     return (
       <div>
-        {/* <span className={this.getBadgeClasses()}>{this.formatCount()}</span> */}
-
-        {/* <ul>
-          {this.state.tasks.map((task) => (
-            <li key="task">{task}</li>
-          ))}
-        </ul> */}
-
         <div className="card">
           <div className="container">
             <h4>

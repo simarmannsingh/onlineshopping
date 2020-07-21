@@ -1,6 +1,6 @@
 ## Online Shopping App
 
-![App Preview](https://github.com/simarmannsingh/onlineshopping/blob/master/preview1.png "Preview generated as on 16th Jul 2020")
+![App Preview](https://github.com/simarmannsingh/onlineshopping/blob/master/preview.png "Preview generated as on 18th Jul 2020")
 
 ![build status](https://api.travis-ci.org/simarmannsingh/onlineshopping.svg?branch=master)
 
@@ -35,6 +35,18 @@ You can also check the production build of the app. To test the production build
 
 It correctly bundles React in production mode and optimizes the build for the best performance.
 The build is minified and the filenames include the hashes.
+
+After executing the above command, you need to run a server to display the build files. For that, first go inside the build folder and then start a server using commands
+
+    cd build
+    python -m SimpleHTTPServer
+
+In case you don't have python installed on your system (you are not using Linux, as in linux it is built in), you can install python or perhaps some other server, Say 'serve'
+
+    npm install -g serve
+    serve -s build
+
+This should run a production build server and display the website/app automatically by opening your default browser and running app on http://localhost:3000/
 
 ## FAQs
 
