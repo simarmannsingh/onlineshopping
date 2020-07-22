@@ -13,7 +13,9 @@
   margin-bottom: 0px;
   cursor: pointer;
 }
-
+.searchBar {
+  margin: auto;
+}
 .special-font {
   color: aliceblue;
   margin-top: 25px;
@@ -35,7 +37,7 @@
   background-color: #aff1f1;
   min-height: 8vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;

@@ -1,21 +1,13 @@
 import React from "react";
 import "./App.css";
 import Counters from "./components/counters";
-import brandlogo from "./img/brandlogo.png";
+import Pageheader from "./components/pageheader";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img
-          src={brandlogo}
-          className="App-link brandlogo"
-          // eslint-disable-next-line no-script-url
-          href="#"
-          alt="Online Shopping Brand Logo"
-        />
-        <button className="buy-btn btn-primary"> Pay Now </button>
-      </header>
+      <Pageheader></Pageheader>
+
       <p className="special-font">
         *This is a Demo app. Please don't expect a BMW performance from a toy
         car.

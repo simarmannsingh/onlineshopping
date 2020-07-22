@@ -1,6 +1,6 @@
 ## Online Shopping App
 
-![App Preview](https://github.com/simarmannsingh/onlineshopping/blob/master/preview.png "Preview generated as on 18th Jul 2020")
+![App Preview](https://github.com/simarmannsingh/onlineshopping/blob/master/preview1.png "Preview generated as on 18th Jul 2020")
 
 ![build status](https://api.travis-ci.org/simarmannsingh/onlineshopping.svg?branch=master)
 
