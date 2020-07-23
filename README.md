@@ -6,7 +6,7 @@
 
 ## About
 
-This is a react based sample project which is created for learning purposes.
+This is a react based sample project which is created for learning purposes. Only the frontend is hosted on gh-pages. The backend is hosted on Heroku.
 
 ## How do I test it?
 
