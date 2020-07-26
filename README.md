@@ -8,6 +8,11 @@
 
 This is a react based sample project which is created for learning purposes. Only the frontend is hosted on gh-pages. The backend is hosted on Heroku.
 
+The data is being fetched from the MongoDB database instance. You can test GET api by running the following command in postman
+
+    GET https://chernobyl-reactor.herokuapp.com/api/getData
+
+
 ## How do I test it?
 
 To test the app, you can clone the app in your computer by executing the following command.

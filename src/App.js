@@ -5,8 +5,7 @@ import axios from 'axios';
 // Importing components
 import Counters from "./components/counters";
 import Pageheader from "./components/pageheader";
-//import { getAllByTestId } from '@testing-library/react';
-import DBUpdate from "./components/dbupdate"
+import Pagefooter from "./components/pagefooter"
 
 class App extends Component {
   // initialize our state
@@ -135,9 +134,10 @@ class App extends Component {
             borderColor : '#fff'}} />
     
           <h4 style={{color:'#124322', textAlign:'center'}} >Adjust values in Database here...</h4>
-          <DBUpdate></DBUpdate>
+          <DBUpdate></DBUpdate> --> this component is intentionally left commented out, for now.
         </section> */}
         
+        <Pagefooter></Pagefooter>                
       </div>
     );
   }

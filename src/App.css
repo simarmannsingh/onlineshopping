@@ -7,6 +7,44 @@
   z-index: 1;
 }
 
+ul {  
+  list-style: none;
+}
+
+li{
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 500;
+}
+
+li:hover{
+  color: rgb(60, 65, 65);
+}
+
+.page-footer {
+  width: 100%;
+  display: flex;
+  padding-left: 80px;
+  padding-right: 140px;
+  padding-top: 80px;
+  padding-bottom: 40px;
+  justify-content: space-between;
+  font-family: Ubuntu;
+}
+
+.pgft-col1{
+ text-align: left; 
+}
+
+.pgft-col2{
+  text-align: center; 
+ }
+
+ .pgft-col3{
+  text-align: right; 
+ }
+
 .brandlogo {
   width: fit-content;
   margin-top: 0px;
