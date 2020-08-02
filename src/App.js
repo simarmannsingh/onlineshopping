@@ -6,6 +6,8 @@ import axios from 'axios';
 import Counters from "./components/counters";
 import Pageheader from "./components/pageheader";
 import Pagefooter from "./components/pagefooter"
+import NavigationColumn from "./components/nav_col"
+
 
 class App extends Component {
   // initialize our state
@@ -113,6 +115,7 @@ class App extends Component {
     return (
       <div className="App">
         <Pageheader></Pageheader>
+        <NavigationColumn></NavigationColumn>
 
         <div className="grid-container">                   
           {data.length <= 0

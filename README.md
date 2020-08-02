@@ -1,6 +1,6 @@
 ## Online Shopping App
 
-![App Preview](https://github.com/simarmannsingh/onlineshopping/blob/master/preview1.png "Preview generated as on 18th Jul 2020")
+![App Preview](https://github.com/simarmannsingh/onlineshopping/blob/master/preview.png "Preview generated as on 2nd Aug 2020")
 
 ![build status](https://api.travis-ci.org/simarmannsingh/onlineshopping.svg?branch=master)
 
@@ -59,7 +59,7 @@ _1. Why the App has same image on all items?_
 Ans : Well, the app doesn't have any image at all, the image that is shown is actually fetched over the internet from the service https://picsum.photos as the cards where the image is shown have size restrictions and hence it is not feasible to find or create custom illustrations with very specific size to add in all the cards of the sample app. Refreshing the page will fetch a new image every time randomly. The only specification is the size. In future if I have enough free time, I would surely consider creating illustrations and adding them locally instead of using this service.
 
 _2. Why clicking on the Pay Now button doesn't lead to any page??_
-Ans: The functionality of Pay Now button as well as development of other pages is under process.
+Ans: The functionality of Pay Now button as well as development of other pages is under progress.
 
 ## Copyright and License
 
